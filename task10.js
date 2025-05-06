@@ -47,6 +47,7 @@ const determineWinner = (userChoice, computerChoice) => {
 };
 
 // Function to play the game
+// use bomb at uerchoice ,user will win every time 
 const playGame = () => {
     const userChoice = getUserChoice('scissors'); // Change this to test different inputs
     const computerChoice = getComputerChoice();
